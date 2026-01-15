@@ -1,0 +1,20 @@
+.project-card {
+  display: block;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid var(--color2);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 0.8em auto;
+  padding: 10px;
+}
+.project-card .title {
+  font-weight: bold;
+}
+.project-card p {
+  margin-bottom: 0.5em;
+}
+.project-card a.btn {
+  float: right;
+  color: var(--color3);
+  border: solid var(--color4) 1px;
+}

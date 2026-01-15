@@ -2,9 +2,13 @@
   <div class="row mb-5">
     <div class="col-12">
       <h2>Publications</h2>
-      <p>List of all the papers I have co-authored, including preprint versions that will soon be submitted or published, provided they are already available online.</p>
-      <p>Also available on <a href="https://scholar.google.ca/citations?user=_8LanWkAAAAJ&hl=fr">Google scholar</a>, <a href="https://dblp.uni-trier.de/pers/hd/b/Bernard:Simon">DBLP</a> or <a href="https://orcid.org/my-orcid?orcid=0000-0003-0200-4294">ORCID</a></p>
-      <hr>
+      <p>This section gives a list of all the papers I have co-authored, including preprint versions that will soon be submitted or published, provided they are already available online.</p>
+      <p>Also available on <a href="https://scholar.google.ca/citations?user=_8LanWkAAAAJ&hl=fr">Google scholar</a>, <a href="https://dblp.uni-trier.de/pid/07/4348-1.html">DBLP</a> or <a href="https://orcid.org/my-orcid?orcid=0000-0003-0200-4294">ORCID</a></p>
+    </div>
+  </div>
+  <hr>
+  <div class="row mb-5">
+    <div class="col-12">
       <app-publication *ngFor="let item of publications" [publication]=item>
       </app-publication>
     </div>

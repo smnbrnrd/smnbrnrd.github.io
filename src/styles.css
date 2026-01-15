@@ -7,19 +7,20 @@
 
 body {
   margin: 0;
-  font-family: "Fira Sans", sans-serif;
-  color: var(--color4);
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  /*color: var(--color4);*/
   overflow-y: scroll; /* Show vertical scrollbar */
 }
 
 .container {
-  width : 992px;
+  max-width : 992px;
   margin: auto;
 }
 
 a {
   color: var(--color2);
-  font-weight: bold;
+  font-weight: normal;
   text-decoration: none;
 }
 

@@ -7,6 +7,34 @@ import {Publication} from "../data/publication";
 export class PublicationsService {
   private _publications: Publication[] = [
     {
+      authors : "Z. Mesbah, D. Jain, T. Mayet, R. Modzelewski, R. Hérault, S. Bernard, S. Thureau, C. Chatelain:",
+      title : "Predicting Patient Survival with Airway Biomarkers using nn-Unet/Radiomics",
+      date : "2025",
+      journal : "arXiv",
+      link : "https://arxiv.org/abs/2506.11677",
+    },
+    {
+      authors : "T. Mayet, S. Bernard, C. Chatelain, R. Herault",
+      title : "Multiple Noises in Diffusion Model for Semi-Supervised Multi-Domain Translation",
+      date : "2025",
+      journal : "Transactions on Machine Learning Research (TMLR)",
+      link : "https://openreview.net/pdf?id=vYdT26kDYM",
+    },
+    {
+      authors : "T. Mayet, P. Shamsolmoali, S. Bernard, E. Granger, R. Hérault, C. Chatelain",
+      title : "TD-Paint: Faster Diffusion Inpainting Through Time Aware Pixel Conditioning",
+      date : "2025",
+      journal : "International Conference on Learning Representations (ICLR)",
+      link : "https://openreview.net/forum?id=erWwBoR59l&noteId=riFAcdtxmp",
+    },
+    {
+      authors : "U. Malik, S. Bernard, A. Pauchet, C. Chatelain, R. Picot-Clemente, J. Cortinovis",
+      title : "Pseudo-labeling with Large Language Models for Multi-label Emotion Classification of French Tweets",
+      date : "2024",
+      journal : "IEEE Access",
+      link : "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10400468",
+    },
+    {
       authors : "L. Portes Cavalheiro, S. Bernard, J.P. Barddal, L. Heutte",
       title : "Random Forest Kernel for High-Dimension Low Sample Size Classification",
       date : "2024",
@@ -14,24 +42,17 @@ export class PublicationsService {
       link : "https://arxiv.org/abs/2310.14710",
     },
     {
-      authors : "T. Mayet, S. Bernard, C. Chatelain, R. Herault",
-      title : "Multiple Noises in Diffusion Model for Semi-Supervised Multi-Domain Translation",
-      date : "2023",
-      journal : "CoRR abs/2309.14394",
-      link : "https://arxiv.org/abs/2309.14394",
-    },
-    {
       authors : "F. Gonzalez, F-X Demoulin, S. Bernard",
       title : "Towards Long-Term Predictions of Turbulence using Neural Operators",
       date : "2023",
-      journal : "International ERCOFTAC Symposium on Engineering Turbulence Modelling and Measurements",
+      journal : "International ERCOFTAC Symposium on Engineering Turbulence Modelling and Measurements (ETMM)",
       link : "https://arxiv.org/abs/2307.13517",
     },
     {
       authors : "F. Gonzalez, F-X Demoulin, S. Bernard",
       title : "Promoting Numerical Stability on Neural Surrogate Models of Turbulent Flows",
       date : "2023",
-      journal : "18th European Turbulence Conference",
+      journal : "18th European Turbulence Conference (ETC)",
       link : "",
     },
     {

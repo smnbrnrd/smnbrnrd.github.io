@@ -7,3 +7,18 @@ img.logo {
   width: auto;
   margin: 0 10px;
 }
+.social-logo {
+  font-size: 4em;
+  margin: 5px 10px;
+}
+@media (max-width: 576px) {
+  #profil {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #profil {
+    display: none;
+  }
+}

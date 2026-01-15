@@ -1,0 +1,10 @@
+<div class="project-card">
+  <p>
+    <a class="btn" href="{{ project.link }}" target="_blank" *ngIf="project.link.length!==0">
+      website
+    </a>
+    <span class="title">{{ project.acronym }}: {{ project.title }}</span><br>
+    {{ project.funding }} -- {{ project.years }}<br>
+    {{ project.abstract }}
+  </p>
+</div>

@@ -1,5 +1,6 @@
-<p>
-  <strong>{{ publication.title }}</strong><br>
-  {{ publication.authors }}<br>
-  {{ publication.journal }}, {{ publication.date }}  <a href="{{ publication.link }}">[pdf]</a>
+<p class="publication-card">
+  <span class="title">{{ publication.title }}</span> <br>
+  {{ publication.authors }} <br>
+  {{ publication.journal }}, <a href="{{ publication.link }}" *ngIf="publication.link.length!==0">[pdf]</a> <span class="float-end">{{ publication.date }}</span>
 </p>
+
